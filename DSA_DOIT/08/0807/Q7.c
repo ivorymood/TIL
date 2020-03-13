@@ -13,7 +13,7 @@ int str_ncmp(const char *s1, const char *s2, size_t n)
 		s2++;
 		n--;
 	}
-
+	
 	// 길이 n까지 모두 같았다면
 	if (!n) return 0;
 	// s1이 더 길다면
