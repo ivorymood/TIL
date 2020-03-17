@@ -3,7 +3,7 @@
 #define IN 1		/* inside a word */
 #define OUT 0		/* outside a word */
 
-void main()
+int main()
 {
 	int c, nl, nw, nc, state;
 
@@ -29,4 +29,5 @@ void main()
 	}
 
 	printf("lines : %d   words : %d   characters : %d\n", nl, nw, nc);
+	return 0;
 }

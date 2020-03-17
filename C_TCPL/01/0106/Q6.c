@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int c;
 
@@ -11,4 +11,5 @@ void main()
 		printf("in : %d (%c)\n", c, c);
 	}
 	printf("last : %d (%c)\n", c, c);
+	return 0;
 }

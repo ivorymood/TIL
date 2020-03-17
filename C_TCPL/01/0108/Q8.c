@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	//blank tab newline
 	int c, nb, nt, nl;
@@ -15,5 +15,5 @@ void main()
 	printf("blank : %d\n", nb);
 	printf("tab : %d\n", nt);
 	printf("new line : %d\n", nl);
-
+	return 0;
 }
