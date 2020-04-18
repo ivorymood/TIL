@@ -1,0 +1,17 @@
+{
+	"Language" : 
+	{
+		"Sample1" : 
+		[
+			"C#",
+			"C++"
+		],
+		"Sample2" : 
+		[
+			"Q#",
+			"Qt"
+		]
+	},
+	"Title" : "Array Exam",
+	"ZTest" : "testtest"
+}
