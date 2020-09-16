@@ -1,0 +1,7 @@
+class MyClass:
+    # 클래스 소멸자
+    def __del__(self):
+        print('MyClass 인스턴스 객체가 메모리에서 제거됩니다')
+
+obj = MyClass()
+del obj
